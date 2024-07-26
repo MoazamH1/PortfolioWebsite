@@ -24,7 +24,7 @@ body {
   right: 0;
   width: 40%;
   height: 100%;
-  background: url("images/background.png") no-repeat center right;
+  background: url("images/background.jpg") no-repeat center right;
   background-size: contain;
   opacity: 0.7; /*Adjust the opacity to make the image blend with the black background.*/
 }
@@ -43,21 +43,6 @@ nav {
   position: fixed;
   top: 0;
   z-index: 3;
-}
-
-.logo {
-  width: 150px; /* Set the width of the logo */
-  height: 100px; /* Set the height of the logo */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden; /* Ensures no overflow */
-  border-radius: 10px; /* Optional: for rounded corners */
-}
-.logo img {
-  width: 100%; /* Ensure the image covers the container */
-  height: 100%; /* Ensure the image covers the container */
-  object-fit: cover; /* Maintain aspect ratio and cover the area */
 }
 
 nav ul {
@@ -93,9 +78,10 @@ nav ul li a:hover::after {
 }
 .header-text {
   margin-top: 20%;
-  font-size: 30px;
+  font-size: 50px;
   position: relative;
   z-index: 2;
+  padding: 0 250px;
 }
 .header-text h1 {
   font-size: 60px;
@@ -103,6 +89,21 @@ nav ul li a:hover::after {
 }
 .header-text h1 span {
   color: #19ad39;
+}
+
+.logo {
+  width: 150px; /* Set the width of the logo */
+  height: 100px; /* Set the height of the logo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensures no overflow */
+  border-radius: 10px; /* Optional: for rounded corners */
+}
+.logo img {
+  width: 100%; /* Ensure the image covers the container */
+  height: 100%; /* Ensure the image covers the container */
+  object-fit: cover; /* Maintain aspect ratio and cover the area */
 }
 /* ----------about------------ */
 #about {
